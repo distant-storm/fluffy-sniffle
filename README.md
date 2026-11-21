@@ -2,10 +2,14 @@
 
 A minimal native iPhone app built with SwiftUI.
 
-## Run it on your iPhone
+## Build and install from Windows (Codemagic + TestFlight)
 
-1. Open `HelloWorld.xcodeproj` in Xcode on a Mac.
+`codemagic.yaml` builds the app on a cloud Mac, signs it, and uploads it to App Store Connect. Install it on your iPhone with TestFlight.
+
+The bundle identifier is `com.distantstorm.helloworld`. If you change it, update both `codemagic.yaml` and `HelloWorld.xcodeproj/project.pbxproj`.
+
+## Build on a Mac (optional)
+
+1. Open `HelloWorld.xcodeproj` in Xcode.
 2. In **Signing & Capabilities**, select your Apple developer **Team**.
-3. If Xcode reports that the bundle identifier is unavailable, replace `com.example.helloworld` with a unique identifier.
-4. Connect and unlock your iPhone, select it as the run destination, then click **Run**.
-# fluffy-sniffle
+3. Connect and unlock your iPhone, select it as the run destination, then click **Run**.
