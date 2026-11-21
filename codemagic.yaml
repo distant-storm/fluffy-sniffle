@@ -9,10 +9,10 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.distantstorm.helloworld
+        bundle_identifier: com.distantstorm.fluffy-sniffle
       vars:
-        XCODE_PROJECT: "HelloWorld.xcodeproj"
-        XCODE_SCHEME: "HelloWorld"
+        XCODE_PROJECT: "fluffy-sniffle.xcodeproj"
+        XCODE_SCHEME: "fluffy-sniffle"
       xcode: latest
     scripts:
       - name: Set up code signing settings on Xcode project

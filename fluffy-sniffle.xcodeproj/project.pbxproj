@@ -7,14 +7,14 @@
 
 /* Begin PBXBuildFile section */
 		A10000000000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* ContentView.swift */; };
-		A10000000000000000000002 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* HelloWorldApp.swift */; };
+		A10000000000000000000002 /* FluffySniffleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* FluffySniffleApp.swift */; };
 		A10000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000000000000000000003 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000003 /* fluffy-sniffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fluffy-sniffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A10000000000000000000005 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* FluffySniffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffySniffleApp.swift; sourceTree = "<group>"; };
 		A10000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -22,25 +22,25 @@
 		A10000000000000000000006 = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000007 /* HelloWorld */,
+				A10000000000000000000007 /* fluffy-sniffle */,
 				A10000000000000000000008 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A10000000000000000000007 /* HelloWorld */ = {
+		A10000000000000000000007 /* fluffy-sniffle */ = {
 			isa = PBXGroup;
-			path = HelloWorld;
+			path = "fluffy-sniffle";
 			sourceTree = "<group>";
 			children = (
 				A10000000000000000000004 /* ContentView.swift */,
-				A10000000000000000000005 /* HelloWorldApp.swift */,
+				A10000000000000000000005 /* FluffySniffleApp.swift */,
 				A10000000000000000000015 /* Assets.xcassets */,
 			);
 		};
 		A10000000000000000000008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000000000000000000003 /* HelloWorld.app */,
+				A10000000000000000000003 /* fluffy-sniffle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000000000000000000009 /* HelloWorld */ = {
+		A10000000000000000000009 /* fluffy-sniffle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000000000000000000000A /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = A1000000000000000000000A /* Build configuration list for PBXNativeTarget "fluffy-sniffle" */;
 			buildPhases = (
 				A1000000000000000000000B /* Sources */,
 				A1000000000000000000000C /* Frameworks */,
@@ -60,9 +60,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
-			productName = HelloWorld;
-			productReference = A10000000000000000000003 /* HelloWorld.app */;
+			name = "fluffy-sniffle";
+			productName = "fluffy-sniffle";
+			productReference = A10000000000000000000003 /* fluffy-sniffle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1000000000000000000000F /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = A1000000000000000000000F /* Build configuration list for PBXProject "fluffy-sniffle" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -92,7 +92,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000000000000000000009 /* HelloWorld */,
+				A10000000000000000000009 /* fluffy-sniffle */,
 			);
 		};
 /* End PBXProject section */
@@ -103,7 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000000000000000000001 /* ContentView.swift in Sources */,
-				A10000000000000000000002 /* HelloWorldApp.swift in Sources */,
+				A10000000000000000000002 /* FluffySniffleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin XCConfigurationList section */
-		A1000000000000000000000A /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		A1000000000000000000000A /* Build configuration list for PBXNativeTarget "fluffy-sniffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10000000000000000000010 /* Debug */,
@@ -140,7 +140,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000000000000000000000F /* Build configuration list for PBXProject "HelloWorld" */ = {
+		A1000000000000000000000F /* Build configuration list for PBXProject "fluffy-sniffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A10000000000000000000012 /* Debug */,
@@ -159,13 +159,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				INFOPLIST_KEY_CFBundleDisplayName = "fluffy-sniffle";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.distantstorm.helloworld;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.distantstorm.fluffy-sniffle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -181,13 +181,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				INFOPLIST_KEY_CFBundleDisplayName = "fluffy-sniffle";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.distantstorm.helloworld;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.distantstorm.fluffy-sniffle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
