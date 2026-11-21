@@ -16,7 +16,10 @@ workflows:
       xcode: latest
     scripts:
       - name: Set up code signing settings on Xcode project
-        script: xcode-project use-profiles
+        # Internal-only builds can never be sent to external testers or the App Store
+        script: |
+          xcode-project use-profiles \
+            --custom-export-options='{"testFlightInternalTestingOnly": true}'
       - name: Set build number
         script: |
           cd $CM_BUILD_DIR
