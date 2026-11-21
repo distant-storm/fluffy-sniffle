@@ -1,3 +1,4 @@
+// !$*UTF8*$!
 {
 	archiveVersion = 1;
 	classes = {
@@ -6,17 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000000000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* ContentView.swift */; };
 		A10000000000000000000002 /* FluffySniffleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* FluffySniffleApp.swift */; };
 		A10000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* Assets.xcassets */; };
+		B10000000000000000000003 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* TaskStore.swift */; };
+		B10000000000000000000005 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* NotificationManager.swift */; };
+		B10000000000000000000008 /* RenewalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* RenewalTask.swift */; };
+		B1000000000000000000000A /* RenewalSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* RenewalSchedule.swift */; };
+		B1000000000000000000000D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* Theme.swift */; };
+		B10000000000000000000010 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* HomeView.swift */; };
+		B10000000000000000000012 /* TaskCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* TaskCardView.swift */; };
+		B10000000000000000000014 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* TaskDetailView.swift */; };
+		B10000000000000000000016 /* TaskEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000015 /* TaskEditorView.swift */; };
+		B10000000000000000000018 /* CelebrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000017 /* CelebrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A10000000000000000000003 /* fluffy-sniffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fluffy-sniffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000000000000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A10000000000000000000005 /* FluffySniffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffySniffleApp.swift; sourceTree = "<group>"; };
 		A10000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000002 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* RenewalTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewalTask.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* RenewalSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewalSchedule.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* TaskCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCardView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 /* TaskEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditorView.swift; sourceTree = "<group>"; };
+		B10000000000000000000017 /* CelebrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000000000000000000000C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A10000000000000000000006 = {
@@ -29,13 +58,16 @@
 		};
 		A10000000000000000000007 /* fluffy-sniffle */ = {
 			isa = PBXGroup;
-			path = "fluffy-sniffle";
-			sourceTree = "<group>";
 			children = (
-				A10000000000000000000004 /* ContentView.swift */,
 				A10000000000000000000005 /* FluffySniffleApp.swift */,
+				B10000000000000000000001 /* App */,
+				B10000000000000000000006 /* Core */,
+				B1000000000000000000000B /* Theme */,
+				B1000000000000000000000E /* Views */,
 				A10000000000000000000015 /* Assets.xcassets */,
 			);
+			path = "fluffy-sniffle";
+			sourceTree = "<group>";
 		};
 		A10000000000000000000008 /* Products */ = {
 			isa = PBXGroup;
@@ -43,6 +75,44 @@
 				A10000000000000000000003 /* fluffy-sniffle.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B10000000000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* TaskStore.swift */,
+				B10000000000000000000004 /* NotificationManager.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B10000000000000000000006 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000007 /* RenewalTask.swift */,
+				B10000000000000000000009 /* RenewalSchedule.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000000B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000C /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000000E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000F /* HomeView.swift */,
+				B10000000000000000000011 /* TaskCardView.swift */,
+				B10000000000000000000013 /* TaskDetailView.swift */,
+				B10000000000000000000015 /* TaskEditorView.swift */,
+				B10000000000000000000017 /* CelebrationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,28 +167,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		A1000000000000000000000B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A10000000000000000000001 /* ContentView.swift in Sources */,
-				A10000000000000000000002 /* FluffySniffleApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		A1000000000000000000000C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXResourcesBuildPhase section */
 		A1000000000000000000000D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -130,26 +178,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin XCConfigurationList section */
-		A1000000000000000000000A /* Build configuration list for PBXNativeTarget "fluffy-sniffle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A10000000000000000000010 /* Debug */,
-				A10000000000000000000011 /* Release */,
+/* Begin PBXSourcesBuildPhase section */
+		A1000000000000000000000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000002 /* FluffySniffleApp.swift in Sources */,
+				B10000000000000000000003 /* TaskStore.swift in Sources */,
+				B10000000000000000000005 /* NotificationManager.swift in Sources */,
+				B10000000000000000000008 /* RenewalTask.swift in Sources */,
+				B1000000000000000000000A /* RenewalSchedule.swift in Sources */,
+				B1000000000000000000000D /* Theme.swift in Sources */,
+				B10000000000000000000010 /* HomeView.swift in Sources */,
+				B10000000000000000000012 /* TaskCardView.swift in Sources */,
+				B10000000000000000000014 /* TaskDetailView.swift in Sources */,
+				B10000000000000000000016 /* TaskEditorView.swift in Sources */,
+				B10000000000000000000018 /* CelebrationView.swift in Sources */,
 			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1000000000000000000000F /* Build configuration list for PBXProject "fluffy-sniffle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A10000000000000000000012 /* Debug */,
-				A10000000000000000000013 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		A10000000000000000000010 /* Debug */ = {
@@ -224,6 +272,27 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000000000000000000000A /* Build configuration list for PBXNativeTarget "fluffy-sniffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000010 /* Debug */,
+				A10000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000000000000000000000F /* Build configuration list for PBXProject "fluffy-sniffle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000012 /* Debug */,
+				A10000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
 	};
 	rootObject = A1000000000000000000000E /* Project object */;
 }
